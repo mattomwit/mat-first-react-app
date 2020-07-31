@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mat-first-react-app/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/mat-first-react-app/static/js/main.b2c8aac1.chunk.js",
+    "main.js.map": "/mat-first-react-app/static/js/main.b2c8aac1.chunk.js.map",
+    "runtime-main.js": "/mat-first-react-app/static/js/runtime-main.123d7668.js",
+    "runtime-main.js.map": "/mat-first-react-app/static/js/runtime-main.123d7668.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/mat-first-react-app/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.33f763e4.chunk.js": "/mat-first-react-app/static/js/2.33f763e4.chunk.js",
+    "static/js/2.33f763e4.chunk.js.map": "/mat-first-react-app/static/js/2.33f763e4.chunk.js.map",
+    "index.html": "/mat-first-react-app/index.html",
+    "precache-manifest.08ef755cab998d3011d7833fe315ce57.js": "/mat-first-react-app/precache-manifest.08ef755cab998d3011d7833fe315ce57.js",
+    "service-worker.js": "/mat-first-react-app/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/mat-first-react-app/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/mat-first-react-app/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.33f763e4.chunk.js.LICENSE.txt": "/mat-first-react-app/static/js/2.33f763e4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.123d7668.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.33f763e4.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.b2c8aac1.chunk.js"
+  ]
+}
