@@ -1,8 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 function Blog(props){
     return(
         <div>
+            <Helmet>
+                <title>Blog</title>
+                <meta name="description" content="Blog" />
+            </Helmet>
             <h1>Blog</h1>
             <p>
                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.

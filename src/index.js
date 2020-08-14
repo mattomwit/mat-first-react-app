@@ -8,14 +8,20 @@ import Home from './Components/Pages/Home';
 import Blog from './Components/Pages/Blog';
 import About from './Components/Pages/About';
 import Navbar from './Components/Navbar/Navbar';
+import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // const BaseURL = "/first-react-app";
 const BaseURL = process.env.PUBLIC_URL; 
 
 ReactDOM.render(
   <React.StrictMode>
+    
+    <Helmet titleTemplate="%s - My App" defaultTitle="My App">
+      <meta name="description" content="A React.js aapplication" />
+    </Helmet>
     <BrowserRouter basename={BaseURL}>
-    {/* <BrowserRouter basename={BaseURL}> */}
+    
+
       <Navbar activeClass="active"></Navbar>
       <Switch>
         <Route path="/game" component={Game}></Route>
