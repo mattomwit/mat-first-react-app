@@ -21,14 +21,15 @@ ReactDOM.render(
     </Helmet>
     <BrowserRouter basename={BaseURL}>
     
-
       <Navbar activeClass="active"></Navbar>
-      <Switch>
-        <Route path="/game" component={Game}></Route>
-        <Route path="/home" component={Home}></Route>
-        <Route path="/blog" component={Blog}></Route>
-        <Route path="/about" component={About}></Route>
-      </Switch>
+      <div className="border rounded p-3 mt-3">
+        <Switch>
+          <Route path="/game" component={Game}></Route>
+          <Route path="/home" component={Home}></Route>
+          <Route path="/blog" component={Blog}></Route>
+          <Route path="/about" component={About}></Route>
+        </Switch>
+      </div>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
